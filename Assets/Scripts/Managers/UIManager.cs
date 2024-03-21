@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
@@ -51,7 +49,7 @@ namespace RollingBall.Managers
 		
 		private void ShowGameOverScreen() 
 		{
-			_gameOver.DOFade(1, 1f).OnComplete(() => 
+			_gameOver.DOFade(1, 0.25f).OnComplete(() => 
 			{
 				Time.timeScale = 0f;
 			});
