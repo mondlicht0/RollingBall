@@ -17,7 +17,7 @@ namespace RollingBall.Managers
 		[SerializeField, Range(0, 1)] private float _spawnHeightRange;
 		
 		[SerializeField] private float _spawnInterval = 1f;
-		[SerializeField] private float _spawnRadius = 1f;
+		[SerializeField] private float _spawnRadius = 2f;
 		
 		private float _timer;
 		
