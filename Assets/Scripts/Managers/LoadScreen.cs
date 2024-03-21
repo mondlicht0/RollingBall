@@ -13,18 +13,18 @@ namespace RollingBall.Managers
 		
 		private void Start()
 		{
-			Loading(1);
+			Loading("Gameplay");
 		}
 
-		public void Loading(int sceneIndex)
+		public void Loading(string sceneName)
 		{
-			StartCoroutine(LoadAsync(sceneIndex));
+			StartCoroutine(LoadAsync(sceneName));
 		}
 
-		private IEnumerator LoadAsync(int sceneIndex)
+		private IEnumerator LoadAsync(string sceneName)
 		{
 			Time.timeScale = 1f;
-			AsyncOperation loadOperation = SceneManager.LoadSceneAsync(sceneIndex);
+			AsyncOperation loadOperation = SceneManager.LoadSceneAsync(sceneName);
 			loadOperation.allowSceneActivation = false;
 
 			while (!loadOperation.isDone)
