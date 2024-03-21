@@ -12,10 +12,6 @@ namespace RollingBall.Managers
 		[SerializeField] private Transform _startPoint;
 		[SerializeField] private Transform _endPoint;
 		
-		[Header("Range")]
-		[SerializeField, Range(0, 1)] private float _spawnWidthRange;
-		[SerializeField, Range(0, 1)] private float _spawnHeightRange;
-		
 		[SerializeField] private float _spawnInterval = 1f;
 		[SerializeField] private float _spawnRadius = 2f;
 		
