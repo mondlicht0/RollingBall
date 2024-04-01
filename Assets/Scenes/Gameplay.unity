@@ -1193,6 +1193,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 674658147}
+    - target: {fileID: 1883078540491807477, guid: 0d455b43c7991a04e8687bc05bc12467, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadGameplayScene
+      objectReference: {fileID: 0}
     - target: {fileID: 2664463010953239663, guid: 0d455b43c7991a04e8687bc05bc12467, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1427,7 +1431,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5743508664904628877, guid: 0d455b43c7991a04e8687bc05bc12467, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Home
+      value: LoadGameplayScene
       objectReference: {fileID: 0}
     - target: {fileID: 5743508664904628877, guid: 0d455b43c7991a04e8687bc05bc12467, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -1507,7 +1511,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8216477875538898643, guid: 0d455b43c7991a04e8687bc05bc12467, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Retry
+      value: LoadGameplayScene
       objectReference: {fileID: 0}
     - target: {fileID: 8216477875538898643, guid: 0d455b43c7991a04e8687bc05bc12467, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -1795,7 +1799,7 @@ PrefabInstance:
       objectReference: {fileID: 120445550}
     - target: {fileID: 3681904966533985929, guid: 716a51aef9b773b42825bbebcbd287c8, type: 3}
       propertyPath: _spawnRadius
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6003578168456280362, guid: 716a51aef9b773b42825bbebcbd287c8, type: 3}
       propertyPath: m_LocalPosition.x
